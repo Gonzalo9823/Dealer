@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="MyPlayer" representedClassName=".MyPlayer" syncable="YES">
+        <attribute name="bagsOfNormalDirt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="money" optional="YES" attributeType="Integer 16" defaultValueString="300" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameOfCompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfSeeds" optional="YES" attributeType="Integer 16" defaultValueString="3" syncable="YES"/>
+        <attribute name="worldRank" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Pods" representedClassName=".Pods" syncable="YES">
+        <attribute name="inUse" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="timeUntilReady" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="typeOfDirt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeOfSeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeOfWater" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MyPlayer" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Pods" positionX="-63" positionY="27" width="128" height="120"/>
+    </elements>
+</model>
