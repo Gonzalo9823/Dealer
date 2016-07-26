@@ -10,8 +10,14 @@ import UIKit
 
 class CreateNewPodViewController: UIViewController {
 
+    @IBOutlet var dirts: [UIButton]!
+    @IBOutlet var wateringCans: [UIButton]!
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.contentSize.width = 818
 
         // Do any additional setup after loading the view.
     }
@@ -33,5 +39,75 @@ class CreateNewPodViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func normalDirt(sender: UIButton) {
+        
+        for dirt in dirts {
+            dirt.selected = false
+        }
+        
+        let selectedDirt = UIImage(named: "BagSelected")
+        sender.setImage(selectedDirt!, forState: .Selected)
+        
+        sender.selected = true
+        
+        
+    }
 
+    @IBAction func coolDirt(sender: UIButton) {
+        for dirt in dirts {
+            dirt.selected = false
+        }
+        
+        let selectedDirt = UIImage(named: "BagSelected")
+        sender.setImage(selectedDirt!, forState: .Selected)
+        
+        sender.selected = true
+    }
+    
+    @IBAction func superSwaggyDirt(sender: UIButton) {
+        for dirt in dirts {
+            dirt.selected = false
+        }
+        
+        let selectedDirt = UIImage(named: "BagSelected")
+        sender.setImage(selectedDirt!, forState: .Selected)
+        
+        sender.selected = true
+    }
+    
+    @IBAction func normalWateringCan(sender: UIButton) {
+        for wateringCan in wateringCans {
+            wateringCan.selected = false
+        }
+        
+        let selectedDirt = UIImage(named: "selectedWateringCan")
+        sender.setImage(selectedDirt!, forState: .Selected)
+        
+        sender.selected = true
+        
+    }
+    
+    @IBAction func betterWateringCan(sender: UIButton) {
+        for wateringCan in wateringCans {
+            wateringCan.selected = false
+        }
+        
+        let selectedDirt = UIImage(named: "selectedWateringCan")
+        sender.setImage(selectedDirt!, forState: .Selected)
+        
+        sender.selected = true
+    }
+    
+    @IBAction func fgWateringCan(sender: UIButton) {
+        for wateringCan in wateringCans {
+            wateringCan.selected = false
+        }
+        
+        let selectedDirt = UIImage(named: "selectedWateringCan")
+        sender.setImage(selectedDirt!, forState: .Selected)
+        
+        sender.selected = true
+    }
+    
+    
 }

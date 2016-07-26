@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2B1D8A1D47FA2000812460 /* WeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B1D891D47FA2000812460 /* WeedTableViewController.swift */; };
+		EA2B1D901D4826F700812460 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B1D8F1D4826F700812460 /* SettingsTableViewController.swift */; };
 		EA748A921D3D88FB00F78F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA748A911D3D88FB00F78F13 /* AppDelegate.swift */; };
 		EA748A941D3D88FB00F78F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA748A931D3D88FB00F78F13 /* ViewController.swift */; };
 		EA748A971D3D88FB00F78F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA748A951D3D88FB00F78F13 /* Main.storyboard */; };
@@ -25,10 +27,11 @@
 		EAD0FFB61D3D8AE800A42346 /* MyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0FFB41D3D8AE800A42346 /* MyPlayer.swift */; };
 		EAD0FFB81D3D95E300A42346 /* PlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0FFB71D3D95E300A42346 /* PlayerInfo.swift */; };
 		EAD0FFDF1D3D9DA300A42346 /* ChangeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0FFDE1D3D9DA300A42346 /* ChangeNameViewController.swift */; };
-		EAD0FFE11D3DA63200A42346 /* WeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0FFE01D3DA63200A42346 /* WeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2B1D891D47FA2000812460 /* WeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeedTableViewController.swift; sourceTree = "<group>"; };
+		EA2B1D8F1D4826F700812460 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		EA748A8E1D3D88FB00F78F13 /* Dealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA748A911D3D88FB00F78F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA748A931D3D88FB00F78F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +52,6 @@
 		EAD0FFB41D3D8AE800A42346 /* MyPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlayer.swift; sourceTree = "<group>"; };
 		EAD0FFB71D3D95E300A42346 /* PlayerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
 		EAD0FFDE1D3D9DA300A42346 /* ChangeNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeNameViewController.swift; path = ../ChangeNameViewController.swift; sourceTree = "<group>"; };
-		EAD0FFE01D3DA63200A42346 /* WeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				EAD0FFB11D3D899B00A42346 /* FirstTimeViewController.swift */,
 				EAD0FFDE1D3D9DA300A42346 /* ChangeNameViewController.swift */,
 				EAD0FFB71D3D95E300A42346 /* PlayerInfo.swift */,
+				EA2B1D8F1D4826F700812460 /* SettingsTableViewController.swift */,
 				EA8C008D1D3EBD3B00FBCBA8 /* Weed */,
 				EA748A951D3D88FB00F78F13 /* Main.storyboard */,
 				EA748A9B1D3D88FB00F78F13 /* Assets.xcassets */,
@@ -105,7 +108,7 @@
 		EA8C008D1D3EBD3B00FBCBA8 /* Weed */ = {
 			isa = PBXGroup;
 			children = (
-				EAD0FFE01D3DA63200A42346 /* WeedViewController.swift */,
+				EA2B1D891D47FA2000812460 /* WeedTableViewController.swift */,
 				EA8C008E1D3EBD6900FBCBA8 /* NormalDirtViewController.swift */,
 				EA8C00941D3EE5E200FBCBA8 /* Pods */,
 			);
@@ -198,9 +201,9 @@
 				EA748A941D3D88FB00F78F13 /* ViewController.swift in Sources */,
 				EA748A921D3D88FB00F78F13 /* AppDelegate.swift in Sources */,
 				EAD0FFB51D3D8AE800A42346 /* MyPlayer+CoreDataProperties.swift in Sources */,
-				EAD0FFE11D3DA63200A42346 /* WeedViewController.swift in Sources */,
 				EAD0FFB21D3D899B00A42346 /* FirstTimeViewController.swift in Sources */,
 				EA8C009C1D3EF30000FBCBA8 /* CreateNewPodViewController.swift in Sources */,
+				EA2B1D901D4826F700812460 /* SettingsTableViewController.swift in Sources */,
 				EAD0FFB81D3D95E300A42346 /* PlayerInfo.swift in Sources */,
 				EAD0FFB01D3D899500A42346 /* ProfileViewController.swift in Sources */,
 				EA8C00991D3EEF8500FBCBA8 /* Pods+CoreDataProperties.swift in Sources */,
@@ -208,6 +211,7 @@
 				EA8C00961D3EEDA700FBCBA8 /* Pod.swift in Sources */,
 				EA8C009A1D3EEF8500FBCBA8 /* Pods.swift in Sources */,
 				EA8C008F1D3EBD6900FBCBA8 /* NormalDirtViewController.swift in Sources */,
+				EA2B1D8A1D47FA2000812460 /* WeedTableViewController.swift in Sources */,
 				EAD0FFB61D3D8AE800A42346 /* MyPlayer.swift in Sources */,
 				EA748A9A1D3D88FB00F78F13 /* Dealer.xcdatamodeld in Sources */,
 			);
@@ -328,7 +332,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Dealer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jtac2.Dealer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonzalo.Dealer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -342,7 +346,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Dealer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jtac2.Dealer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonzalo.Dealer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

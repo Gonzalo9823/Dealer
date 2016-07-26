@@ -22,7 +22,7 @@ class ProfileViewController: UIViewController {
         
         super.viewDidLoad()
         scrollView.contentSize.height = 700
-        // Do any additional setup after loading the view.
+        loadPlayer()
     }
     
     override func didReceiveMemoryWarning() {
@@ -31,14 +31,7 @@ class ProfileViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        PlayerInfo.shareInstance.fetchPlayer()
-        
-        name.text! = "Hello, \(PlayerInfo.shareInstance.playerName)"
-        
-        currentMoney.text! = "Money: $\(PlayerInfo.shareInstance.playerMoney!)"
-        worldRank.text! = "Country Rank: \(PlayerInfo.shareInstance.playerRank!)"
-        numberOfSeeds.text! = "Number of Seeds: \(PlayerInfo.shareInstance.playerWeedSeeds!)"
-        numbersOfBagsOfDirt.text! = "Number of bags of dirt: \(PlayerInfo.shareInstance.playerBagsOfNormalDirt)"
+        loadPlayer()
         
     }
     
@@ -69,6 +62,15 @@ class ProfileViewController: UIViewController {
      }
      */
     
+    func loadPlayer() {
+        PlayerInfo.shareInstance.fetchPlayer()
+        
+        name.text! = "Hello, \(PlayerInfo.shareInstance.playerName)"
+        currentMoney.text! = "Money: $\(PlayerInfo.shareInstance.playerMoney!)"
+        worldRank.text! = "Country Rank: \(PlayerInfo.shareInstance.playerRank!)"
+        numberOfSeeds.text! = "Number of Seeds: \(PlayerInfo.shareInstance.playerWeedSeeds!)"
+        numbersOfBagsOfDirt.text! = "Number of bags of dirt: \(PlayerInfo.shareInstance.playerBagsOfNormalDirt)"
+    }
     
 }
 
